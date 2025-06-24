@@ -17,8 +17,10 @@ def person(is_female, is_tall):
         print("You are a female but NOT tall.")
     elif not is_female and is_tall:
         print("You are NOT a  female but are tall.")
+    elif is_female or is_tall:
+        print("You are female or tall or both")
     else:
-        print("You are NOT a  female and NOT tall.")
+        print("You are NOT a female and NOT tall.")
 
 
 person(is_female, is_tall)
