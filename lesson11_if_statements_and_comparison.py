@@ -12,4 +12,4 @@ def max_num(num1, num2, num3):
 
 #print("Maximum number is " + str(max_num(num1, num2, num3)))
 
-print("Maximum number is " + max_num(num1, num2, num3))
+print("Maximum number is " + max_num(m1, num2, num3))
