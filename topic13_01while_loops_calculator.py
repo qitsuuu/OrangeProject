@@ -25,6 +25,5 @@ def calculator():
 
     response = input("\nDo you want to try again? (y/n): ")
     if response == "y":
-      calculator()
-
+        calculator()
 calculator()
