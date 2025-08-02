@@ -9,8 +9,8 @@
 
 # = open("topic18_01workplace.txt", "a")
 #workplace_file.write("<p>Canon is in Kawasaki</p>")
-
+phrase = input("Enter a phrase to write to the file: ") 
 workplace_file = open("topic18_02index.html", "w")
-workplace_file.write("<p>Canon is in Kawasaki</p>")
+workplace_file.write(f"<p>{phrase}</p>\n")
 
 workplace_file.close()
